@@ -1,0 +1,3 @@
+# Digital Nurture 5.0 Solutions
+
+This repository serves as a structured collection of solutions for the **Cognizant Digital Nurture 5.0 Java Full Stack Program**. It contains module-wise implementations of the exercises, assignments, coding challenges, and hands-on activities outlined in the official program curriculum available in the [Digital Nurture Java Full Stack repository](https://github.com/seshadrimr/Digital-Nurture-JavaFSE/tree/main).
