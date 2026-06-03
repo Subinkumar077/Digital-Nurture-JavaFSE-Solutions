@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 9.2 - Button Groups</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container py-4">
+      <h2 class="mb-4">Button Groups & Toggle Buttons</h2>
+      <div class="btn-group mb-4" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-outline-primary">Left</button>
+        <button type="button" class="btn btn-outline-primary">Middle</button>
+        <button type="button" class="btn btn-outline-primary">Right</button>
+      </div>
+
+      <div class="btn-group" role="group" aria-label="Toggle buttons">
+        <input type="checkbox" class="btn-check" id="btncheck1" />
+        <label class="btn btn-primary" for="btncheck1">Option 1</label>
+
+        <input type="checkbox" class="btn-check" id="btncheck2" />
+        <label class="btn btn-primary" for="btncheck2">Option 2</label>
+
+        <input type="checkbox" class="btn-check" id="btncheck3" />
+        <label class="btn btn-primary" for="btncheck3">Option 3</label>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

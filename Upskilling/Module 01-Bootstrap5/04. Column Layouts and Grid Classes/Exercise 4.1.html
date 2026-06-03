@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 4.1 - Two Column Layout</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container py-4">
+      <h2 class="mb-4">Two Column Layout</h2>
+      <div class="row g-3">
+        <aside class="col-12 col-md-3">
+          <div class="border rounded p-3 bg-light">
+            <h5 class="mb-3">Sidebar</h5>
+            <ul class="list-unstyled mb-0">
+              <li><a href="#" class="link-primary">Dashboard</a></li>
+              <li><a href="#" class="link-primary">Reports</a></li>
+              <li><a href="#" class="link-primary">Settings</a></li>
+            </ul>
+          </div>
+        </aside>
+        <section class="col-12 col-md-9">
+          <div class="border rounded p-4">
+            <h4 class="mb-3">Content Area</h4>
+            <p class="text-muted mb-0">
+              This layout uses <code>col-md-3</code> for the sidebar and
+              <code>col-md-9</code> for the main content.
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
